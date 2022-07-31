@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.header {
+  height: 65px;
+  display: flex;
+  background-image: linear-gradient(to right, #672280, #a626d3);
+  padding: 0;
+  justify-content: space-between;
+}
+
+.header--brand {
+  display: flex;
+}
+
+.header--img {
+  align-self: center;
+  padding-left: 1rem;
+  max-width: 31px;
+}
+
+.header--title {
+  padding-left: 7px;
+  align-self: center;
+  color: white;
+}
+
+.header--text {
+  align-self: center;
+  padding-right: 1.25rem;
+  color: white;
+  font-weight: bold;
+}
