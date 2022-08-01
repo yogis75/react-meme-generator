@@ -44,6 +44,36 @@
   font-size: 0.8rem;
 }
 
+main {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 36px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--input {
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+}
+
+.form--btn {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #711f8d, #a818da);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* flexbox
 .meme {
   max-width: 550px;
   margin: 0 auto;
@@ -65,6 +95,7 @@
   border-radius: 5px;
   outline: none;
   font-size: 12px;
+  border: 1px solid black;
 }
 
 .meme--btn {
@@ -84,3 +115,4 @@
   font-weight: 700;
   letter-spacing: -1px;
 }
+*/

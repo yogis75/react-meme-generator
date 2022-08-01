@@ -2,17 +2,15 @@ import React from "react";
 
 function Meme() {
   return (
-    <div className="meme">
-      <form>
-        <div className="meme--inputs">
-          <input type="text" className="meme--input_1" />
-          <input type="text" className="meme--input_2" />
-        </div>
-        <button type="button" className="meme--btn">
-          <h3>Get a new meme image</h3>
+    <main>
+      <form className="form">
+        <input type="text" className="form--input" />
+        <input type="text" className="form--input" />
+        <button type="button" className="form--btn">
+          Get a new meme image
         </button>
       </form>
-    </div>
+    </main>
   );
 }
 
