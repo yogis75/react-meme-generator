@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "./components/Header";
+import Meme from "./components/Meme";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Hello, World</h1>
+      <Meme />
     </div>
   );
 }
