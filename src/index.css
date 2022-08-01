@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body {
+.app {
   font-family: "Karla", sans-serif;
 }
 
@@ -41,6 +41,7 @@ body {
   align-self: center;
   padding-right: 1.25rem;
   font-weight: bold;
+  font-size: 0.8rem;
 }
 
 .meme {
@@ -54,7 +55,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2.5rem 2rem 0rem 2rem;
+  margin: 2.5rem 2.5rem 0rem 2rem;
 }
 
 .meme--input_1,
@@ -68,12 +69,18 @@ body {
 
 .meme--btn {
   height: 40px;
+  width: 478px;
   border-radius: 5px;
-  margin: 1rem 2rem;
+  margin: 1rem 2rem 1rem 2rem;
   outline: none;
   border: none;
   cursor: pointer;
   background-image: linear-gradient(to right, #711f8d, #a818da);
   color: white;
+}
+
+.meme--btn > h3 {
+  font-size: 16px;
   font-weight: 700;
+  letter-spacing: -1px;
 }

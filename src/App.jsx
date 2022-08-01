@@ -4,7 +4,7 @@ import Meme from "./components/Meme";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <Meme />
     </div>
