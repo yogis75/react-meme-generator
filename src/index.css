@@ -14,11 +14,11 @@
   background-image: linear-gradient(to right, #672280, #a626d3);
   padding: 0;
   color: white;
+  justify-content: center;
 }
 
 .header--brand {
   display: flex;
-  flex: 1;
 }
 
 .header--brand > h3 {
@@ -35,13 +35,6 @@
 .header--brand_title {
   padding-left: 7px;
   align-self: center;
-}
-
-.header--text {
-  align-self: center;
-  padding-right: 1.25rem;
-  font-weight: bold;
-  font-size: 0.8rem;
 }
 
 main {

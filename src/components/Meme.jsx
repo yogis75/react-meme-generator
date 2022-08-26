@@ -39,7 +39,7 @@ function Meme() {
       .toJpeg(document.getElementById("content"), { quality: 0.95 })
       .then(function (dataUrl) {
         var link = document.createElement("a");
-        link.download = "myMeme.jpeg";
+        link.download = "jingsMeme.jpeg";
         link.href = dataUrl;
         link.click();
       });
