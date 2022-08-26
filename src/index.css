@@ -126,6 +126,7 @@ main {
 .meme--image {
   max-width: 100%;
   border-radius: 3px;
+  display: block;
 }
 
 .meme--text {
@@ -152,4 +153,18 @@ main {
 
 .top {
   top: 0;
+}
+
+.download--btn {
+  height: 40px;
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #711f8d, #a818da);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
 }
